@@ -24,7 +24,7 @@ int main()
 
     std::vector<int> nums(size, 0);
 
-    for (int i = 0; i < nums.size(); i++)
+    for (auto i = 0; i < nums.size(); i++)
     {
         int temp;
         cin >> temp;
